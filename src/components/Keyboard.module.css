@@ -1,0 +1,29 @@
+/* css du clavier */
+
+.btn {
+  width: 100%;
+  border-radius: 20%;
+  background-color: rgb(221, 227, 236);
+  /* aspect-ratio: 1 / 1; */
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: .5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #171729;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btn.active {
+  background-color: #4c4c76;
+  color: white;
+}
+
+.btn.inactive {
+  opacity: .1;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+  background-color: rgb(194, 207, 227);
+}
